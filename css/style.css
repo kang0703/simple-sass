@@ -1,0 +1,33 @@
+.infor_write_form { position: relative; }
+@media all and (max-width: 767px) { .infor_write_form { max-width: 600px; margin: 0 auto; } }
+.infor_write_form .write_box { padding: 25px 0; padding-right: 225px; }
+@media all and (max-width: 767px) { .infor_write_form .write_box { padding: 25px 0 10px; padding-right: 100px; } }
+@media all and (max-width: 350px) { .infor_write_form .write_box { padding-right: 80px; } }
+.infor_write_form .btn_area { position: absolute; top: 13px; right: 60px; width: 160px; }
+.infor_write_form .btn_area input[type=image] { width: 100%; }
+@media all and (max-width: 767px) { .infor_write_form .btn_area { top: 18px; right: 5px; width: 90px; } }
+@media all and (max-width: 350px) { .infor_write_form .btn_area { top: 18px; width: 75px; } }
+.infor_write_form .write_zone { position: relative; }
+.infor_write_form .write_zone label { z-index: 1; position: absolute; top: 17px; left: 0; width: 150px; display: block; font-size: 26px; text-align: right; }
+@media all and (max-width: 767px) { .infor_write_form .write_zone label { top: 3px; font-size: 15px; width: 60px; } }
+@media all and (max-width: 350px) { .infor_write_form .write_zone label { width: 51px; } }
+.infor_write_form .write_zone .put_box { padding-left: 165px; }
+@media all and (max-width: 767px) { .infor_write_form .write_zone .put_box { padding-left: 70px; } }
+@media all and (max-width: 350px) { .infor_write_form .write_zone .put_box { padding-left: 60px; } }
+.infor_write_form .write_zone .put_box select, .infor_write_form .write_zone .put_box input[type=text], .infor_write_form .write_zone .put_box input[type=tel] { width: 100%; height: 66px; padding-left: 20px; font-size: 22px; border-radius: 6px; background-color: #ededed; border: 0; outline: 0; }
+@media all and (max-width: 767px) { .infor_write_form .write_zone .put_box select, .infor_write_form .write_zone .put_box input[type=text], .infor_write_form .write_zone .put_box input[type=tel] { font-size: 15px; height: 35px; padding: 0 10px; } }
+@media all and (max-width: 350px) { .infor_write_form .write_zone .put_box select, .infor_write_form .write_zone .put_box input[type=text], .infor_write_form .write_zone .put_box input[type=tel] { font-size: 13px; } }
+.infor_write_form .write_zone .put_box select { background: url("images/select.png") no-repeat 84% 50% #ededed; background-size: 17px; -webkit-appearance: none; -moz-appearance: none; -o-appearance: none; appearance: none; }
+@media all and (max-width: 767px) { .infor_write_form .write_zone .put_box select { background: url("images/select.png") no-repeat 89% 50% #ededed; background-size: 13px; } }
+@media all and (max-width: 350px) { .infor_write_form .write_zone .put_box select { background-size: 9px; } }
+.infor_write_form .write_zone .put_box select::-ms-expand { display: none; }
+.infor_write_form .write_zone.name { margin-bottom: 15px; }
+.infor_write_form .write_zone.tel .put_box { *zoom: 1; margin: 0 -10px; }
+.infor_write_form .write_zone.tel .put_box:before, .infor_write_form .write_zone.tel .put_box:after { content: ""; display: table; }
+.infor_write_form .write_zone.tel .put_box:after { clear: both; }
+.infor_write_form .write_zone.tel .pbox { position: relative; float: left; width: 33.3333%; box-sizing: border-box; padding: 0 10px; }
+.infor_write_form .write_zone.tel .pbox:after { content: "-"; display: block; position: absolute; top: 16px; right: -3px; font-size: 18px; color: #000; }
+@media all and (max-width: 767px) { .infor_write_form .write_zone.tel .pbox:after { top: 4px; right: -4px; } }
+.infor_write_form .write_zone.tel .pbox:last-child:after { display: none; }
+
+/*# sourceMappingURL=style.css.map */

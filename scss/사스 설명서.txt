@@ -1,0 +1,23 @@
+### 사스 명령어 ###
+- 개발 컴파일
+sass --watch -E utf-8 --style expanded style.scss:../css/style.css
+
+- 배포 컴파일
+sass --watch -E utf-8 --style compact --sourcemap=none style.scss:../css/style.css
+배포 후 .map 파일 삭제
+rm -rf ../css/*.map
+
+
+## 사스 자주쓰는 scss
+<img src="../../source_dev/img/main/-1920x960.jpg" alt="">
+
+background:url($img + 'main/.png') 0 0 no-repeat;
+
+@include border-radius($border-radius : 5px);
+
+@include box-sizing;
+@include box-sizing($box-sizing: border-box);
+
+
+border-left:1px solid rgba(255, 255, 255, 0.1);
+
