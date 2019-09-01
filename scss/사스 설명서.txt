@@ -3,8 +3,9 @@
 sass --watch -E utf-8 --style expanded style.scss:../css/style.css
 
 - 배포 컴파일
-sass --watch -E utf-8 --style compact --sourcemap=none style.scss:../css/style.css
-배포 후 .map 파일 삭제
+sass -E utf-8 --style compact --sourcemap=none style.scss:../css/style.css & del /q "../css/*.map"
+
+배포 후 .map 파일 삭제(리눅스 명령어로 사용안해도 됨)
 rm -rf ../css/*.map
 
 
@@ -21,3 +22,4 @@ background:url($img + 'main/.png') 0 0 no-repeat;
 
 border-left:1px solid rgba(255, 255, 255, 0.1);
 
+del /q "../css/*.map"
