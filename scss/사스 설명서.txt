@@ -10,16 +10,15 @@ rm -rf ../css/*.map
 
 
 ## 사스 자주쓰는 scss
-<img src="../../source_dev/img/main/-1920x960.jpg" alt="">
+<img src="../../images/main/*****.jpg" alt="">
 
 background:url($img + 'main/.png') 0 0 no-repeat;
 
 @include border-radius($border-radius : 5px);
 
 @include box-sizing;
-@include box-sizing($box-sizing: border-box);
 
 
-border-left:1px solid rgba(255, 255, 255, 0.1);
+## mediaquery
+@media all and (min-width:320px) and (max-width:767px) { … }
 
-del /q "../css/*.map"
